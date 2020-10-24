@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/site/static/js/main.4f6e1238.chunk.js",
-    "main.js.map": "/site/static/js/main.4f6e1238.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.3ece193f.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.3ece193f.js.map",
-    "static/js/2.1d4ca0d7.chunk.js": "/site/static/js/2.1d4ca0d7.chunk.js",
-    "static/js/2.1d4ca0d7.chunk.js.map": "/site/static/js/2.1d4ca0d7.chunk.js.map",
-    "index.html": "/site/index.html",
-    "precache-manifest.ae8c231508f70a31c8bc55258a4418d1.js": "/site/precache-manifest.ae8c231508f70a31c8bc55258a4418d1.js",
-    "service-worker.js": "/site/service-worker.js",
-    "static/js/2.1d4ca0d7.chunk.js.LICENSE.txt": "/site/static/js/2.1d4ca0d7.chunk.js.LICENSE.txt"
+    "main.js": "/ninja-developers.github.io/static/js/main.4f6e1238.chunk.js",
+    "main.js.map": "/ninja-developers.github.io/static/js/main.4f6e1238.chunk.js.map",
+    "runtime-main.js": "/ninja-developers.github.io/static/js/runtime-main.d7e59da7.js",
+    "runtime-main.js.map": "/ninja-developers.github.io/static/js/runtime-main.d7e59da7.js.map",
+    "static/js/2.2bfd3efa.chunk.js": "/ninja-developers.github.io/static/js/2.2bfd3efa.chunk.js",
+    "static/js/2.2bfd3efa.chunk.js.map": "/ninja-developers.github.io/static/js/2.2bfd3efa.chunk.js.map",
+    "index.html": "/ninja-developers.github.io/index.html",
+    "precache-manifest.d42beac52d6251cc736a8d1d801c42fe.js": "/ninja-developers.github.io/precache-manifest.d42beac52d6251cc736a8d1d801c42fe.js",
+    "service-worker.js": "/ninja-developers.github.io/service-worker.js",
+    "static/js/2.2bfd3efa.chunk.js.LICENSE.txt": "/ninja-developers.github.io/static/js/2.2bfd3efa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ece193f.js",
-    "static/js/2.1d4ca0d7.chunk.js",
+    "static/js/runtime-main.d7e59da7.js",
+    "static/js/2.2bfd3efa.chunk.js",
     "static/js/main.4f6e1238.chunk.js"
   ]
 }

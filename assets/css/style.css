@@ -8,7 +8,6 @@ body {
   /* color: #444444; */
   color: #444444;
   user-select: none;
-  scrollbar-width: none;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -344,7 +343,6 @@ text-align: center;}
   position: fixed;
   top: 55px;
   right: 15px;
-  /* bottom: 15px; */
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -800,23 +798,6 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-/* .features .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-} 
-
- .features .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}  */
 
 .features .icon-box h4 {
   font-size: 20px;
@@ -1066,204 +1047,6 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #2c4964;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #5846f9;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #5846f9;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
-  display: inline-block;
-  padding: 10px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 15px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #5846f9;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #5846f9;
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
-}
-
-.faq .section-title h2, .faq .section-title p {
-  color: #fff;
-}
-
-.faq .section-title h2::after {
-  background: rgba(255, 255, 255, 0.6);
-}
-
-.faq .faq-list {
-  padding: 0 100px;
-}
-
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li + li {
-  margin-top: 15px;
-}
-
-.faq .faq-list li {
-  padding: 30px;
-  background: #fff;
-  border-radius: 5px;
-  position: relative;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-}
-
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: #8577fb;
-}
-
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #2c4964;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #5846f9;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
